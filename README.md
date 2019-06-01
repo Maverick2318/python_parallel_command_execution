@@ -5,6 +5,9 @@ An example of using the asyncio library to write concurrent execution of Linux c
 Before reading the code in this repo make sure you understand the code that explains the basic concepts of the asyncio library: https://github.com/Maverick2318/python_asyncio_examples
 
 
+---
+
+
 Example output of parallel_cmd.py. It demonstrates that running a sleep 1 and a sleep 2 command completes in two seconds due to running them concurrently:
 
 C02VQ1S6HTDD:python_parallel_command_execution nsiddiq$ ./parallel_cmd.py
